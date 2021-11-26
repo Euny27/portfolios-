@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: blueviolet;
+    position: relative;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 50px;
+    background-color: white;
+}
+.navlink{
+    margin: 0.5em;
+    border: 0.2em solid rgb(153, 153, 245);
+    padding: 0.2em;
+    font-size: 1.5em;
+    transition: ease-out 1s all;
+}
+.navlink:hover {
+    background-color: rgb(204, 151, 83);
+    color: white;
+}
+footer{
+    width: 100%;
+    height: 150px;
+    background-color:rgb(204, 151, 83);
+    position: absolute;
+    top: 125%;
+}
+footer ul{
+    display: flex;
+    position: absolute;
+    top: 60px;
+    left: 700px;
+}
+footer ul li i{
+    padding: 10px;
+}
+footer ul li{
+    list-style: none;
+}
+footer p{
+
+    position: absolute;
+    left: 700px;
+    top: 100px;
+}
+.hero{
+    width: 100%;
+    height: 300px;
+    background: blueviolet
+}
+.hero h1 {
+    font-size: medium;
+    text-align: center;
+}
+.hero p{
+    text-align: center;
+}
+.hero img {
+    margin-left: 45%;
+    margin-right: 30%;
+}
+
+.projects{
+    width: 100%;
+    height: 700px;
+    background: sandybrown;
+    align-items: center;
+    position: absolute;
+    top: 60%;
+}
+.eunice {
+    display: flex;
+    justify-content: space-evenly;
+}
+.projects h2 {
+    font-size: 40px;
+    color: white;
+    margin-bottom: ;
+    text-align: center;
+}
+.projects h1{
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+.project1{
+    width: 500px;
+    height: 500px;
+    background: dodgerblue;
+}
+.project1 img {
+    width: 500px;
+    height: 500px;
+}
+.project2{
+    width: 500px;
+    height: 500px;
+    background-color: green;
+}
+.project2 img {
+    width: 500px;
+    height: 500px;
+}
+.project3{
+    width: 500px;
+    height: 500px;
+    background-color: brown;
+}
+.project3 img {
+    width: 500px;
+    height: 500px;
+.testimonials{
+    width: 100%;
+    height: 500px;
+    background-color: cyan;
+}
+.header img{
+    
+}
